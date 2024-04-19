@@ -3,7 +3,7 @@ class Account {
     readonly id:number; // set only in constructor. Throws error if we try to update it anywhere else
     owner:string;
     balance:number;
-    nickname?:string; // optional property set using '?'
+    nickname?:string; // optional property set using '?' operator
 
     //special function to initialize properties of an object
     constructor(id:number, owner:string, balance:number){
